@@ -1,0 +1,27 @@
+@model CoreMVC.Models.News
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>listele</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>    
+            @Model.Id
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Model.FirstName
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@model CoreMVC.Models.News
+
+@{
+    Layout = null;
+}
+
+@using (Html.BeginForm("deneme"))
+{
+<table>
+    <tr>
+        <td>
+            Id:
+        </td>
+        <td>
+            <input id="id"
+                   name="id"
+                   type="text"
+                   value="" />
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Baslik
+        </td>
+        <td>
+            <input id="FirstName" name="firstname" type="text" value="" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" value="Kaydet"/>
+        </td>
+       
+    </tr>
+</table>
+}
